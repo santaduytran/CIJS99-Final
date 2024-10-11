@@ -1,8 +1,8 @@
 /* General styles for the entire app */
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f7f4e9; /* Light cream background */
-  color: #4d3a32; /* Dark brown text for a cozy feel */
+  background-color: #f7f4e9;
+  color: #4d3a32;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  color: #b3541e; /* Burnt orange color for the header */
+  color: #b3541e;
   margin-bottom: 30px;
 }
 
@@ -25,7 +25,7 @@ h1 {
 }
 
 .tabs button {
-  background-color: #eab676; /* Soft, warm orange */
+  background-color: #eab676;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -36,11 +36,11 @@ h1 {
 }
 
 .tabs button:hover {
-  background-color: #b3541e; /* Darker burnt orange on hover */
+  background-color: #b3541e;
 }
 
 .tabs .active {
-  background-color: #9b2915; /* A rich autumnal red for the active tab */
+  background-color: #9b2915;
 }
 
 /* Add Task Input */
@@ -79,7 +79,7 @@ h1 {
   justify-content: center;
   margin-bottom: 10px;
   padding: 10px;
-  background-color: #fff5e1; /* Light orange background for tasks */
+  background-color: #fff5e1;
   border: 2px solid #eab676;
   border-radius: 10px;
   width: 300px;
@@ -97,7 +97,7 @@ h1 {
 
 .todo-list .task span.completed {
   text-decoration: line-through;
-  color: #9b2915; /* Dark red for completed tasks */
+  color: #9b2915;
 }
 
 /* Responsive design */
@@ -118,7 +118,7 @@ h1 {
 /* Task delete button */
 .delete-btn {
   margin-left: 10px;
-  background-color: #b3541e; /* Burnt orange for autumn theme */
+  background-color: #b3541e;
   color: white;
   border: none;
   padding: 5px 10px;
