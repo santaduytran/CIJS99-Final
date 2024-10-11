@@ -146,3 +146,15 @@ h1 {
 .delete-all-btn:hover {
   background-color: #b3541e;
 }
+
+/* Add Task Input when disabled */
+.add-task input:disabled {
+  background-color: #f0e6dc; /* Light beige to show it's disabled */
+  border: 1px solid #ccc;
+  cursor: not-allowed;
+}
+
+.add-task button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
