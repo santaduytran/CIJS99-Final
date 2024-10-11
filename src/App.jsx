@@ -12,7 +12,7 @@ const App = () => {
     <div className="App">
       <h1>Todo App</h1>
       <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
-      <AddTask setTasks={setTasks} tasks={tasks} />
+      <AddTask setTasks={setTasks} tasks={tasks} activeTab={activeTab} />
       <TodoList tasks={tasks} activeTab={activeTab} setTasks={setTasks} />
     </div>
   );
