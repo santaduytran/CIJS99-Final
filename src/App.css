@@ -1,0 +1,116 @@
+/* General styles for the entire app */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f7f4e9; /* Light cream background */
+  color: #4d3a32; /* Dark brown text for a cozy feel */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #b3541e; /* Burnt orange color for the header */
+  margin-bottom: 30px;
+}
+
+/* Tabs styling */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background-color: #eab676; /* Soft, warm orange */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tabs button:hover {
+  background-color: #b3541e; /* Darker burnt orange on hover */
+}
+
+.tabs .active {
+  background-color: #9b2915; /* A rich autumnal red for the active tab */
+}
+
+/* Add Task Input */
+.add-task {
+  margin-bottom: 20px;
+}
+
+.add-task input {
+  padding: 10px;
+  border: 2px solid #b3541e;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 250px;
+  font-size: 16px;
+  background-color: #fffbe7;
+}
+
+.add-task button {
+  background-color: #9b2915;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-task button:hover {
+  background-color: #b3541e;
+}
+
+/* Todo List */
+.todo-list .task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff5e1; /* Light orange background for tasks */
+  border: 2px solid #eab676;
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px auto;
+}
+
+.todo-list .task input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.todo-list .task span {
+  font-size: 18px;
+}
+
+.todo-list .task span.completed {
+  text-decoration: line-through;
+  color: #9b2915; /* Dark red for completed tasks */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .tabs button {
+    padding: 8px 15px;
+  }
+
+  .add-task input {
+    width: 200px;
+  }
+
+  .todo-list .task {
+    width: 90%;
+  }
+}
